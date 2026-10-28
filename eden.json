@@ -1,0 +1,879 @@
+{
+  "version": 2,
+  "whatsapp": "5493777222280",
+  "web": "https://edendigitall.online",
+  "nube": "https://nexus-stock-cloud.santiago-alia777.workers.dev",
+  "launcher": {
+    "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/download/eden/eden.yml"
+  },
+  "productos": [
+    {
+      "id": "nexus-stock",
+      "nombre": "Nexus Stock",
+      "tipo": "windows",
+      "estado": "disponible",
+      "color": "#d946ef",
+      "color2": "#ff4d5e",
+      "logo": "img/ns/logo.png",
+      "resumen": "Ventas, stock y caja con inteligencia artificial.",
+      "resumen_en": "Sales, stock and checkout with artificial intelligence.",
+      "descripcion": "El programa de ventas para comercios. Caja rápida, inventario, compras con foto de la factura, clientes y fiado, estadísticas y una IA que te dice qué reponer y qué precio ajustar. Tus datos quedan en tu PC y funciona sin internet.",
+      "descripcion_en": "The sales program for shops. Fast checkout, inventory, purchases from a photo of the invoice, customers and credit, statistics and an AI that tells you what to restock and which price to adjust. Your data stays on your PC and it works offline.",
+      "puntos": [
+        "Caja y ventas en segundos",
+        "Stock con alertas de reposición",
+        "Compras desde la foto de la factura",
+        "Preguntale a Nexus: la IA del negocio"
+      ],
+      "puntos_en": [
+        "Checkout and sales in seconds",
+        "Stock with restock alerts",
+        "Purchases from a photo of the invoice",
+        "Ask Nexus: the business AI"
+      ],
+      "funciones": [
+        {
+          "titulo": "Caja rápida",
+          "titulo_en": "Fast checkout",
+          "texto": "Vendé con el lector de códigos o buscando por nombre. Efectivo con vuelto, débito, crédito, transferencia, dólares o cuenta corriente.",
+          "texto_en": "Sell with the barcode scanner or by name. Cash with change, debit, credit, transfer, dollars or store credit."
+        },
+        {
+          "titulo": "Stock al día",
+          "titulo_en": "Stock up to date",
+          "texto": "Alertas de reposición, categorías, ajuste de precios por inflación y carga desde Excel o desde la foto de la factura.",
+          "texto_en": "Restock alerts, categories, inflation price updates and loading from Excel or from a photo of the invoice."
+        },
+        {
+          "titulo": "Cualquier Excel, con IA",
+          "titulo_en": "Any Excel file, with AI",
+          "texto": "Importá tu planilla aunque tenga varias pestañas, tablas dinámicas o gráficos. Nexus encuentra el stock y ordena categoría, marca, color y talle desde el nombre.",
+          "texto_en": "Import your spreadsheet even with several tabs, pivot tables or charts. Nexus finds the stock and sorts category, brand, color and size from the name."
+        },
+        {
+          "titulo": "Compras y proveedores",
+          "titulo_en": "Purchases and suppliers",
+          "texto": "Cargá la mercadería que llega, actualizá costos y compará precios de proveedores para comprar donde conviene.",
+          "texto_en": "Log incoming goods, update costs and compare supplier prices to buy where it pays."
+        },
+        {
+          "titulo": "Clientes y fiado",
+          "titulo_en": "Customers and credit",
+          "texto": "La cuenta corriente de cada cliente: lo que te debe, lo que compró y cuándo.",
+          "texto_en": "Each customer's account: what they owe you, what they bought and when."
+        },
+        {
+          "titulo": "Estadísticas claras",
+          "titulo_en": "Clear statistics",
+          "texto": "Lo vendido, lo cobrado y lo que falta cobrar. Ventas y ganancia por día, en pesos o en dólares.",
+          "texto_en": "What you sold, what you collected and what is still owed. Sales and profit per day, in pesos or dollars."
+        },
+        {
+          "titulo": "Preguntale a Nexus",
+          "titulo_en": "Ask Nexus",
+          "texto": "Preguntá con tus palabras, como «¿cuánto vendí hoy?», y responde con tus números. También hace lo que le pedís, con tu confirmación y la opción de deshacer.",
+          "texto_en": "Ask in your own words, like “how much did I sell today?”, and it answers with your numbers. It also does what you ask, with your confirmation and an undo option."
+        },
+        {
+          "titulo": "15 ayudantes de IA",
+          "titulo_en": "15 AI helpers",
+          "texto": "Revisan los datos, cierran el día, te dicen qué reponer y te preparan los precios por costo e inflación. Cada uno apagado, sugiriendo o automático.",
+          "texto_en": "They check your data, close the day, tell you what to restock and prepare prices by cost and inflation. Each one off, suggesting or automatic."
+        },
+        {
+          "titulo": "Tu negocio en el celular",
+          "titulo_en": "Your shop on your phone",
+          "texto": "Por Telegram: el resumen del día, un aviso al instante si alguien anula o devuelve una venta, y le preguntás lo que quieras.",
+          "texto_en": "On Telegram: the day's summary, an instant alert if someone voids or returns a sale, and ask it anything."
+        },
+        {
+          "titulo": "Venta por peso",
+          "titulo_en": "Sale by weight",
+          "texto": "Lee las etiquetas de la balanza y vende por peso.",
+          "texto_en": "Reads scale labels and sells by weight."
+        },
+        {
+          "titulo": "Catálogo online",
+          "titulo_en": "Online catalog",
+          "texto": "Publicá tu catálogo con un link: tus clientes eligen y te mandan el pedido por WhatsApp. También en PDF.",
+          "texto_en": "Publish your catalog with a link: customers pick and send you the order on WhatsApp. Also as a PDF.",
+          "plan": "pro"
+        },
+        {
+          "titulo": "Cajeros con PIN",
+          "titulo_en": "Cashiers with a PIN",
+          "texto": "El cajero vende y cobra sin ver ganancias ni costos. Anular o devolver pide el PIN del dueño.",
+          "texto_en": "Cashiers sell and charge without seeing profit or costs. Voids and returns need the owner's PIN.",
+          "plan": "pro"
+        },
+        {
+          "titulo": "Tus datos en tu PC",
+          "titulo_en": "Your data on your PC",
+          "texto": "Funciona sin internet. Copias de seguridad diarias y en la nube, cifradas.",
+          "texto_en": "Works offline. Daily backups, also in the cloud, encrypted."
+        }
+      ],
+      "capturas": [
+        {
+          "img": "img/ns/hoy.webp",
+          "texto": "Hoy: cómo viene el negocio y qué conviene hacer",
+          "texto_en": "Today: how the shop is doing and what to do next"
+        },
+        {
+          "img": "img/ns/pos-3.webp",
+          "texto": "Vender: la caja, con todos los medios de pago",
+          "texto_en": "Sell: the checkout, with every payment method"
+        },
+        {
+          "img": "img/ns/pos-5-ok.webp",
+          "texto": "Venta confirmada, con el vuelto calculado",
+          "texto_en": "Sale confirmed, with the change worked out"
+        },
+        {
+          "img": "img/ns/inventario.webp",
+          "texto": "Inventario con búsqueda, categorías y lector de códigos",
+          "texto_en": "Inventory with search, categories and barcode scanner"
+        },
+        {
+          "img": "img/ns/compras.webp",
+          "texto": "Compras: dónde te conviene comprar cada producto",
+          "texto_en": "Purchases: where each product is cheaper"
+        },
+        {
+          "img": "img/ns/clientes.webp",
+          "texto": "Clientes y lo que te deben",
+          "texto_en": "Customers and what they owe you"
+        },
+        {
+          "img": "img/ns/stats-0.webp",
+          "texto": "Estadísticas: vendido, cobrado y a cobrar",
+          "texto_en": "Statistics: sold, collected and owed"
+        },
+        {
+          "img": "img/ns/chat-2-answer.webp",
+          "texto": "Preguntale a Nexus: responde con tus números",
+          "texto_en": "Ask Nexus: answers with your numbers"
+        },
+        {
+          "img": "img/ns/cmd-2-confirm.webp",
+          "texto": "Le pedís un cambio y te muestra el antes y el después",
+          "texto_en": "Ask for a change and it shows you before and after"
+        },
+        {
+          "img": "img/ns/ai-agentes.webp",
+          "texto": "Centro IA: los ayudantes y lo que hace cada uno",
+          "texto_en": "AI Center: the helpers and what each one does"
+        }
+      ],
+      "capturas_nota": "Capturas con datos de demostración («La Esquina»).",
+      "capturas_nota_en": "Screenshots with demo data (“La Esquina”).",
+      "planes": [
+        {
+          "id": "basico",
+          "nombre": "Básico",
+          "para": "Para el dueño que atiende su negocio.",
+          "para_en": "For the owner who runs the counter.",
+          "incluye": [
+            "Todo Nexus Stock 2",
+            "Caja, stock, compras, precios, clientes y estadísticas",
+            "Los 15 ayudantes de IA y «Preguntale a Nexus»",
+            "Funciona sin internet",
+            "Copias diarias y en la nube, cifradas",
+            "Para 1 computadora",
+            "Actualizaciones automáticas"
+          ],
+          "incluye_en": [
+            "All of Nexus Stock 2",
+            "Checkout, stock, purchases, prices, customers and statistics",
+            "The 15 AI helpers and “Ask Nexus”",
+            "Works offline",
+            "Daily and cloud backups, encrypted",
+            "For 1 computer",
+            "Automatic updates"
+          ]
+        },
+        {
+          "id": "pro",
+          "nombre": "Pro",
+          "para": "Para negocios con empleados o cajeros.",
+          "para_en": "For shops with staff or cashiers.",
+          "incluye": [
+            "Todo lo del plan Básico",
+            "Usuarios y cajeros con PIN",
+            "El cajero no ve ganancias ni costos",
+            "Anular o devolver pide el PIN del dueño",
+            "Cada venta queda a nombre de quien la hizo",
+            "Catálogo online y en PDF",
+            "Para 1 computadora"
+          ],
+          "incluye_en": [
+            "Everything in Basic",
+            "Users and cashiers with a PIN",
+            "Cashiers don't see profit or costs",
+            "Voids and returns need the owner's PIN",
+            "Every sale is recorded under who made it",
+            "Online and PDF catalog",
+            "For 1 computer"
+          ]
+        }
+      ],
+      "precios": {
+        "basico-mensual": 29,
+        "basico-anual": 285,
+        "pro-mensual": 49,
+        "pro-anual": 420
+      },
+      "prueba_dias": 7,
+      "cambios": [
+        {
+          "version": "2.3.2",
+          "fecha": "2026-10-28",
+          "puntos": [
+            "Importa cualquier Excel: varias pestañas, tablas dinámicas, segmentaciones y gráficos",
+            "Ordena con IA la categoría, la marca, el color y el talle desde el nombre",
+            "Entiende secciones y talles en columnas",
+            "La licencia se revisa más seguido: una renovación se nota antes"
+          ],
+          "puntos_en": [
+            "Imports any Excel file: several tabs, pivot tables, slicers and charts",
+            "AI sorts category, brand, color and size from the product name",
+            "Understands sections and sizes in columns",
+            "The license is checked more often: a renewal shows up sooner"
+          ],
+          "resumen": "Esta versión se enfocó en el Excel: ahora Nexus entiende planillas armadas de cualquier forma, como las que ya tenés. Se usa en Inventario → Importar Excel.",
+          "resumen_en": "This version focused on Excel: Nexus now understands spreadsheets built any way, like the ones you already have. Use it in Inventory → Import Excel."
+        },
+        {
+          "version": "2.3.1",
+          "fecha": "2026-10-28",
+          "puntos": [
+            "El asistente entiende frases informales y responde con naturalidad",
+            "Mejoras de idioma y de seguridad"
+          ],
+          "puntos_en": [
+            "The assistant understands casual phrasing and answers naturally",
+            "Language and security improvements"
+          ],
+          "resumen": "Un asistente más natural para charlar, y ajustes de idioma y seguridad.",
+          "resumen_en": "A more natural assistant to chat with, plus language and security tweaks."
+        },
+        {
+          "version": "2.3.0",
+          "fecha": "2026-10-23",
+          "puntos": [
+            "Venta por peso con etiquetas de balanza",
+            "Tu negocio en el celular, por Telegram",
+            "Catálogo online con pedido por WhatsApp y en PDF (plan Pro)"
+          ],
+          "puntos_en": [
+            "Sale by weight with scale labels",
+            "Your shop on your phone, on Telegram",
+            "Online catalog with WhatsApp orders and PDF (Pro plan)"
+          ],
+          "resumen": "Más formas de vender y de seguir tu negocio desde afuera. La balanza se prende en Configuración → Cobros y precios, y el catálogo está en Inventario → «Catálogo y lista de precios».",
+          "resumen_en": "More ways to sell and to follow your shop from anywhere. The scale is turned on in Settings → Payments & prices, and the catalog is in Inventory → “Catalog and price list”."
+        },
+        {
+          "version": "2.2.0",
+          "fecha": "2026-10-22",
+          "puntos": [
+            "Excel de cualquier forma, con vista previa",
+            "Compras desde la foto de la factura",
+            "El chat hace lo que le pedís, con confirmación y deshacer",
+            "Vuelto en efectivo y cuenta corriente al fiar",
+            "La prueba gratis arranca sola, sin códigos"
+          ],
+          "puntos_en": [
+            "Excel in any shape, with a preview",
+            "Purchases from a photo of the invoice",
+            "The chat does what you ask, with confirmation and undo",
+            "Cash change and store credit when selling on account",
+            "The free trial starts on its own, no codes"
+          ],
+          "resumen": "La IA pasa a hacer cosas por vos: carga compras desde una foto, ordena cualquier Excel y ejecuta lo que le pedís en el chat, siempre con tu confirmación.",
+          "resumen_en": "The AI starts doing things for you: it loads purchases from a photo, sorts any Excel file and carries out what you ask in the chat, always with your confirmation."
+        },
+        {
+          "version": "2.1.1",
+          "fecha": "2026-10-11",
+          "puntos": [
+            "Ancho de pantalla ajustable y pestañas más cómodas",
+            "La versión se ve en pantalla"
+          ],
+          "puntos_en": [
+            "Adjustable screen width and easier tabs",
+            "The version is shown on screen"
+          ],
+          "resumen": "Ajustes de comodidad para pantallas de todos los tamaños.",
+          "resumen_en": "Comfort tweaks for screens of every size."
+        },
+        {
+          "version": "2.0.0",
+          "fecha": "2026-10-09",
+          "puntos": [
+            "Nexus Stock 2: inteligencia artificial incluida",
+            "Clientes y fiado, tickets, usuarios con PIN",
+            "Inglés y copia en la nube cifrada"
+          ],
+          "puntos_en": [
+            "Nexus Stock 2: artificial intelligence included",
+            "Customers and credit, receipts, users with a PIN",
+            "English and encrypted cloud backup"
+          ],
+          "resumen": "Nace Nexus Stock 2, con la inteligencia artificial adentro.",
+          "resumen_en": "Nexus Stock 2 is born, with artificial intelligence inside."
+        }
+      ],
+      "requisitos": [
+        {
+          "k": "Sistema",
+          "k_en": "System",
+          "v": "Windows 10 u 11, de 64 bits",
+          "v_en": "Windows 10 or 11, 64-bit"
+        },
+        {
+          "k": "Internet",
+          "k_en": "Internet",
+          "v": "No hace falta para vender. Se usa para la IA en la nube, las copias en la nube y las actualizaciones.",
+          "v_en": "Not needed to sell. Used for cloud AI, cloud backups and updates."
+        },
+        {
+          "k": "Lector de códigos",
+          "k_en": "Barcode scanner",
+          "v": "Opcional: un lector de códigos de barras USB",
+          "v_en": "Optional: a USB barcode scanner"
+        },
+        {
+          "k": "Impresora de tickets",
+          "k_en": "Receipt printer",
+          "v": "Opcional: térmica de 58 u 80 mm. Sin impresora, el ticket sale en PDF o por WhatsApp.",
+          "v_en": "Optional: 58 or 80 mm thermal printer. Without one, receipts go out as a PDF or on WhatsApp."
+        },
+        {
+          "k": "Balanza",
+          "k_en": "Scale",
+          "v": "Opcional: con etiquetas de precio o de peso",
+          "v_en": "Optional: one that prints price or weight labels"
+        },
+        {
+          "k": "Idiomas",
+          "k_en": "Languages",
+          "v": "Español, English",
+          "v_en": "Spanish, English"
+        },
+        {
+          "k": "Licencia",
+          "k_en": "License",
+          "v": "Por mes o por año, para 1 computadora",
+          "v_en": "Monthly or yearly, for 1 computer"
+        },
+        {
+          "k": "Tus datos",
+          "k_en": "Your data",
+          "v": "Quedan en tu PC",
+          "v_en": "Stay on your PC"
+        }
+      ],
+      "preguntas": [
+        {
+          "p": "¿Qué diferencia hay entre Básico y Pro?",
+          "p_en": "What is the difference between Basic and Pro?",
+          "r": "Es el mismo Nexus Stock 2 con toda la inteligencia artificial. El Pro suma usuarios y cajeros con PIN: el cajero vende, cobra y fía, pero no ve ganancias ni costos, y para anular o devolver necesita el PIN del dueño. Para pasar de Básico a Pro comprás el Pro: tus datos quedan igual.",
+          "r_en": "It is the same Nexus Stock 2 with all the AI. Pro adds users and cashiers with a PIN: cashiers sell, charge and give credit, but don't see profit or costs, and voids or returns need the owner's PIN. To move from Basic to Pro you buy Pro: your data stays the same."
+        },
+        {
+          "p": "¿Puedo probarlo antes de pagar?",
+          "p_en": "Can I try it before paying?",
+          "r": "Sí. Lo instalás y la prueba arranca sola, sin tarjeta.",
+          "r_en": "Yes. Install it and the trial starts on its own, no card needed."
+        },
+        {
+          "p": "¿Hay licencia de por vida?",
+          "p_en": "Is there a lifetime license?",
+          "r": "No. La inteligencia artificial en la nube tiene un costo mensual por cliente, por eso se vende por mes o por año.",
+          "r_en": "No. The cloud AI has a monthly cost per customer, so it is sold monthly or yearly."
+        },
+        {
+          "p": "¿Cómo pago y cómo lo activo?",
+          "p_en": "How do I pay and activate it?",
+          "r": "Pagás con PayPal o tarjeta desde cualquier país, o en pesos con Mercado Pago al dólar oficial del día. Apenas se aprueba el pago ves en pantalla el código de tu licencia, que pegás en Nexus Stock → Activar.",
+          "r_en": "Pay with PayPal or card from any country, or in Argentine pesos with Mercado Pago. As soon as the payment is approved you see your license code on screen; paste it in Nexus Stock → Activate."
+        },
+        {
+          "p": "¿Puedo cancelar?",
+          "p_en": "Can I cancel?",
+          "r": "Sí: no hay débito automático, así que no hay nada que dar de baja. Si no renovás, sigue funcionando hasta el final del período que pagaste.",
+          "r_en": "Yes: there is no automatic charge, so there is nothing to cancel. If you don't renew, it keeps working until the end of the period you paid for."
+        },
+        {
+          "p": "Si lo desinstalo, ¿pierdo mis datos?",
+          "p_en": "If I uninstall it, do I lose my data?",
+          "r": "No. Al desinstalar se borra el programa, pero tus datos quedan guardados en esta PC.",
+          "r_en": "No. Uninstalling removes the program, but your data stays saved on this PC."
+        }
+      ],
+      "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/latest/download/latest.yml",
+      "detectar": "Nexus Stock",
+      "idPc": "bji",
+      "claves": "^(NXM|NXA|NEX)-[A-Za-z0-9._-]+$",
+      "canjearDesde": "2.3.3",
+      "imagen": "img/ns/hoy.webp",
+      "comprar": "https://nexus-stock-cloud.santiago-alia777.workers.dev/v1/pay",
+      "sitio": "https://edendigitall.online/nexus-stock",
+      "ventajas": [
+        {
+          "titulo": "Vendés más rápido",
+          "titulo_en": "You sell faster",
+          "texto": "Pasás el código o buscás por nombre, elegís cómo te pagan y listo. El vuelto se calcula solo y el stock se descuenta con cada venta: no hay que anotar nada aparte.",
+          "texto_en": "Scan the code or search by name, pick how they pay and that is it. Change is worked out for you and stock goes down with every sale: nothing to write down separately."
+        },
+        {
+          "titulo": "Sabés cómo te va, sin hacer cuentas",
+          "titulo_en": "You know how you are doing, no maths",
+          "texto": "Al abrir ves un puntaje de 0 a 100 de la salud del negocio, explicado en palabras simples, con lo vendido, lo cobrado y lo que falta cobrar.",
+          "texto_en": "When you open it you see a 0-to-100 health score for the shop, explained in plain words, with what you sold, collected and are still owed."
+        },
+        {
+          "titulo": "La IA trabaja por vos",
+          "titulo_en": "The AI works for you",
+          "texto": "Le preguntás «¿cuánto vendí ayer?» y te contesta con tus números. Sus ayudantes te dicen qué reponer, te preparan los precios cuando sube un costo y cierran el día solos.",
+          "texto_en": "Ask “how much did I sell yesterday?” and it answers with your numbers. Its helpers tell you what to restock, prepare prices when a cost goes up and close the day on their own."
+        },
+        {
+          "titulo": "Tus datos son tuyos",
+          "titulo_en": "Your data is yours",
+          "texto": "Todo queda en tu PC y funciona sin internet. Las copias de seguridad son diarias, y también en la nube, cifradas.",
+          "texto_en": "Everything stays on your PC and works offline. Backups are daily, also in the cloud, encrypted."
+        }
+      ],
+      "para": "Almacenes, kioscos, supermercados, fiambrerías, verdulerías, carnicerías, panaderías, dietéticas, regalerías, indumentaria y calzado, bazares, jugueterías, librerías, perfumerías, tecnología y ferreterías.",
+      "para_en": "Grocery stores, kiosks, supermarkets, delis, greengrocers, butchers, bakeries, health food stores, gift shops, clothing and shoes, homeware, toy stores, stationers, perfumeries, tech and hardware stores.",
+      "grupos": [
+        {
+          "titulo": "Vender",
+          "titulo_en": "Selling",
+          "img": "img/ns/pos-3.webp",
+          "texto": "La caja está pensada para atender rápido. Pasás el código con el lector o buscás el producto por nombre, elegís cómo te pagan y confirmás. El vuelto se calcula solo y el stock se descuenta con cada venta.",
+          "texto_en": "The checkout is built to serve customers fast. Scan the code or search the product by name, pick how they pay and confirm. Change is calculated for you and stock goes down with every sale.",
+          "puntos": [
+            "Efectivo con vuelto, débito, crédito, transferencia, dólares o cuenta corriente",
+            "Ticket en impresora térmica de 58 u 80 mm, en PDF o por WhatsApp",
+            "Anular o devolver: el stock vuelve solo",
+            "Venta por peso con las etiquetas de la balanza"
+          ],
+          "puntos_en": [
+            "Cash with change, debit, credit, transfer, dollars or store credit",
+            "Receipt on a 58 or 80 mm thermal printer, as a PDF or on WhatsApp",
+            "Void or return: stock comes back on its own",
+            "Sale by weight with scale labels"
+          ]
+        },
+        {
+          "titulo": "Cómo viene tu negocio",
+          "titulo_en": "How your shop is doing",
+          "img": "img/ns/hoy.webp",
+          "texto": "La pantalla «Hoy» junta todo lo importante: un puntaje de 0 a 100 de la salud del negocio explicado en palabras simples, lo que vendiste, la ganancia y lo que Nexus te preparó.",
+          "texto_en": "The “Today” screen brings together what matters: a 0-to-100 health score explained in plain words, what you sold, the profit and what Nexus prepared for you.",
+          "puntos": [
+            "Lo vendido, lo cobrado y lo que falta cobrar",
+            "Qué día y a qué hora vendés más, y lo más vendido",
+            "Cierre del día automático, con el PDF listo para WhatsApp o mail",
+            "Montos en pesos, dólares o euros"
+          ],
+          "puntos_en": [
+            "What you sold, collected and are still owed",
+            "Which day and hour you sell most, and your best sellers",
+            "Automatic end-of-day report, with the PDF ready for WhatsApp or email",
+            "Amounts in pesos, dollars or euros"
+          ]
+        },
+        {
+          "titulo": "Stock y compras",
+          "titulo_en": "Stock and purchases",
+          "img": "img/ns/compras.webp",
+          "texto": "Nexus te avisa qué se está por terminar y te dice qué pedir, cuánto y a quién, según lo que realmente vendés. La mercadería que llega la cargás a mano, desde un Excel o con una foto de la factura.",
+          "texto_en": "Nexus warns you what is running low and tells you what to order, how much and from whom, based on what you really sell. Incoming goods are loaded by hand, from Excel or from a photo of the invoice.",
+          "puntos": [
+            "Compara proveedores y te dice cuánto ahorrás por mes",
+            "Precios al día cuando sube un costo o el dólar, con opción de deshacer",
+            "Importa cualquier Excel y ordena categoría, marca, color y talle",
+            "Ajuste de precios por inflación"
+          ],
+          "puntos_en": [
+            "Compares suppliers and tells you how much you save a month",
+            "Prices kept up to date when a cost or the dollar goes up, with undo",
+            "Imports any Excel file and sorts category, brand, color and size",
+            "Inflation price updates"
+          ]
+        },
+        {
+          "titulo": "Clientes y fiado",
+          "titulo_en": "Customers and credit",
+          "img": "img/ns/clientes.webp",
+          "texto": "Cada cliente con su cuenta corriente: lo que te debe, lo que compró y cuándo. Cobrás en partes y mandás el recordatorio por WhatsApp con un toque.",
+          "texto_en": "Each customer with their account: what they owe, what they bought and when. Collect in parts and send the reminder on WhatsApp with one tap.",
+          "puntos": [
+            "Cobros en partes",
+            "Recordatorio listo para WhatsApp",
+            "Recargo por mora, si lo querés usar",
+            "Ventas con financieras, con lo que falta cobrar a la vista"
+          ],
+          "puntos_en": [
+            "Partial payments",
+            "Reminder ready for WhatsApp",
+            "Late fee, if you want to use it",
+            "Sales through finance companies, with what is still to collect in sight"
+          ]
+        },
+        {
+          "titulo": "Inteligencia artificial",
+          "titulo_en": "Artificial intelligence",
+          "img": "img/ns/chat-2-answer.webp",
+          "texto": "Preguntale a Nexus con tus palabras y te contesta con tus números. Si le pedís un cambio, te muestra el antes y el después y lo hace recién cuando confirmás, con la opción de deshacer. Además, 15 ayudantes trabajan en segundo plano.",
+          "texto_en": "Ask Nexus in your own words and it answers with your numbers. If you ask for a change, it shows before and after and only does it when you confirm, with undo. Plus, 15 helpers work in the background.",
+          "puntos": [
+            "«¿Cuánto vendí ayer?», «¿Qué tengo que reponer?»",
+            "Cada ayudante apagado, sugiriendo o automático",
+            "Promos con su banner listo para redes",
+            "La IA de tu PC se instala sola la primera vez"
+          ],
+          "puntos_en": [
+            "“How much did I sell yesterday?”, “What do I need to restock?”",
+            "Each helper off, suggesting or automatic",
+            "Promos with a banner ready for social media",
+            "The AI on your PC installs itself the first time"
+          ]
+        }
+      ],
+      "comparar": [
+        {
+          "k": "Caja, stock, compras, clientes y estadísticas",
+          "k_en": "Checkout, stock, purchases, customers and statistics",
+          "b": true,
+          "p": true
+        },
+        {
+          "k": "Los 15 ayudantes de IA y «Preguntale a Nexus»",
+          "k_en": "The 15 AI helpers and “Ask Nexus”",
+          "b": true,
+          "p": true
+        },
+        {
+          "k": "Funciona sin internet",
+          "k_en": "Works offline",
+          "b": true,
+          "p": true
+        },
+        {
+          "k": "Copias diarias y en la nube, cifradas",
+          "k_en": "Daily and cloud backups, encrypted",
+          "b": true,
+          "p": true
+        },
+        {
+          "k": "Tu negocio en el celular (Telegram)",
+          "k_en": "Your shop on your phone (Telegram)",
+          "b": true,
+          "p": true
+        },
+        {
+          "k": "Usuarios y cajeros con PIN",
+          "k_en": "Users and cashiers with a PIN",
+          "b": false,
+          "p": true
+        },
+        {
+          "k": "El cajero no ve ganancias ni costos",
+          "k_en": "Cashiers don’t see profit or costs",
+          "b": false,
+          "p": true
+        },
+        {
+          "k": "Catálogo online y en PDF",
+          "k_en": "Online and PDF catalog",
+          "b": false,
+          "p": true
+        },
+        {
+          "k": "Computadoras",
+          "k_en": "Computers",
+          "b": "1",
+          "p": "1"
+        }
+      ],
+      "videos": [
+        {
+          "src": "img/ns/video-nexus.mp4",
+          "poster": "img/ns/video-nexus.webp",
+          "titulo": "Nexus Stock en 35 segundos",
+          "titulo_en": "Nexus Stock in 35 seconds",
+          "texto": "Vender, ver cómo viene el día, el fiado y los cajeros con PIN, con las pantallas reales del programa.",
+          "texto_en": "Selling, how the day is going, credit and cashiers with a PIN, with the program’s real screens."
+        },
+        {
+          "src": "img/ns/video-agentes.mp4",
+          "poster": "img/ns/video-agentes.webp",
+          "titulo": "Los agentes de IA, en un minuto",
+          "titulo_en": "The AI agents, in one minute",
+          "texto": "Revisan lo que cargás, te dicen qué pedir, cuánto y a quién, qué no se vende y quién te debe.",
+          "texto_en": "They check what you enter, tell you what to order, how much and from whom, what is not selling and who owes you."
+        }
+      ],
+      "videos_nota": "Videos con datos de demostración.",
+      "videos_nota_en": "Videos with demo data.",
+      "opiniones": [
+        {
+          "titulo": "Más control y más ahorro",
+          "titulo_en": "More control, more savings",
+          "quien": "Cliente de Nexus Stock, con más de un local",
+          "quien_en": "Nexus Stock customer with more than one store",
+          "texto": "Nos contó que lo que más le cambió fue el tiempo y la facilidad: carga las compras de los proveedores y el stock sacándole una foto a la factura, y los agentes de IA resuelven casi solos el trabajo con los proveedores de uno de sus locales.",
+          "texto_en": "They told us the biggest change was time and ease: they load supplier purchases and stock by taking a photo of the invoice, and the AI agents handle most of the supplier work for one of their stores on their own.",
+          "puntos": [
+            "Con una foto carga las compras de los proveedores y el stock",
+            "Con las estadísticas vio la plata que estaba perdiendo en otro de sus locales",
+            "Los agentes de IA comparan los precios de los proveedores y hacen la mayor parte del trabajo solos",
+            "Siente el negocio más controlado y ahorra más plata"
+          ],
+          "puntos_en": [
+            "With a photo they load supplier purchases and stock",
+            "The statistics showed the money they were losing at another store",
+            "The AI agents compare supplier prices and do most of the work on their own",
+            "They feel the business is more under control and save more money"
+          ],
+          "nota": "Resumen de lo que nos contó un cliente.",
+          "nota_en": "Summary of what a customer told us."
+        }
+      ]
+    },
+    {
+      "id": "nexus-builder",
+      "nombre": "Nexus Builder",
+      "tipo": "web",
+      "estado": "beta",
+      "color": "#19c08a",
+      "logo": "img/nb/logo.png",
+      "resumen": "Tu sitio web con IA y plantillas profesionales.",
+      "resumen_en": "Your website with AI and professional templates.",
+      "descripcion": "Armá la página de tu negocio en minutos: elegís tu rubro o dejás que la IA lo detecte, la IA arma el sitio y lo publicás. Tiene un marketplace de plantillas hechas por diseñadores de la comunidad. Se usa desde el navegador.",
+      "descripcion_en": "Build your business website in minutes: pick your industry or let the AI detect it, the AI builds the site and you publish it. It has a marketplace of templates made by community designers. It runs in the browser.",
+      "puntos": [
+        "La IA arma tu sitio",
+        "Plantillas profesionales",
+        "Marketplace de la comunidad"
+      ],
+      "puntos_en": [
+        "AI builds your site",
+        "Professional templates",
+        "Community marketplace"
+      ],
+      "funciones": [
+        {
+          "titulo": "Tu rubro, entendido",
+          "titulo_en": "Your industry, understood",
+          "texto": "Elegís tu negocio o se lo contás con tus palabras, y la IA lo detecta.",
+          "texto_en": "Pick your business or describe it in your own words, and the AI detects it."
+        },
+        {
+          "titulo": "El sitio, armado con IA",
+          "titulo_en": "The site, built with AI",
+          "texto": "La IA arma las secciones y los textos según tu rubro.",
+          "texto_en": "The AI lays out sections and copy for your industry."
+        },
+        {
+          "titulo": "Plantillas profesionales",
+          "titulo_en": "Professional templates",
+          "texto": "Diseños hechos por diseñadores, listos para tu marca.",
+          "texto_en": "Designs made by designers, ready for your brand."
+        },
+        {
+          "titulo": "Marketplace",
+          "titulo_en": "Marketplace",
+          "texto": "Comprá una plantilla de la comunidad, o publicá y vendé la tuya.",
+          "texto_en": "Buy a community template, or publish and sell your own."
+        }
+      ],
+      "capturas": [
+        {
+          "img": "img/nb/inicio.webp",
+          "texto": "Elegí tu negocio o dejá que la IA lo detecte",
+          "texto_en": "Pick your business or let the AI detect it"
+        },
+        {
+          "img": "img/nb/ia.webp",
+          "texto": "Contale a la IA qué vendés",
+          "texto_en": "Tell the AI what you sell"
+        },
+        {
+          "img": "img/nb/marketplace.webp",
+          "texto": "Marketplace de plantillas de la comunidad",
+          "texto_en": "Community template marketplace"
+        }
+      ],
+      "capturas_nota": "Capturas del modo de demostración.",
+      "capturas_nota_en": "Screenshots from demo mode.",
+      "requisitos": [
+        {
+          "k": "Dónde se usa",
+          "k_en": "Where it runs",
+          "v": "En el navegador (Edén lo abre en su propia ventana de Edge)",
+          "v_en": "In the browser (Edén opens it in its own Edge window)"
+        },
+        {
+          "k": "Estado",
+          "k_en": "Status",
+          "v": "Acceso beta",
+          "v_en": "Beta access"
+        },
+        {
+          "k": "Pagos",
+          "k_en": "Payments",
+          "v": "Planes en pesos con Mercado Pago",
+          "v_en": "Plans in Argentine pesos with Mercado Pago"
+        }
+      ],
+      "precio": "Planes en pesos con Mercado Pago",
+      "precio_en": "Plans in Argentine pesos",
+      "url": "https://nexusbuilder.app",
+      "imagen": "img/nb/inicio.webp",
+      "sitio": "https://nexusbuilder.app",
+      "ventajas": [
+        {
+          "titulo": "Tu sitio en minutos",
+          "titulo_en": "Your site in minutes",
+          "texto": "Elegís tu rubro o se lo contás a la IA con tus palabras, y arma el sitio con sus secciones y textos.",
+          "texto_en": "Pick your industry or describe it to the AI in your own words, and it builds the site with its sections and copy."
+        },
+        {
+          "titulo": "Diseños de verdad",
+          "titulo_en": "Real designs",
+          "texto": "Plantillas hechas por diseñadores, y un marketplace donde podés comprar una o vender la tuya.",
+          "texto_en": "Templates made by designers, and a marketplace where you can buy one or sell your own."
+        }
+      ]
+    },
+    {
+      "id": "cartera-blindada",
+      "nombre": "Cartera Blindada",
+      "tipo": "web",
+      "estado": "pronto",
+      "color": "#f0b53a",
+      "resumen": "El riesgo de cada cliente y los cheques en cartera, para distribuidoras.",
+      "resumen_en": "Each customer's risk and the checks you hold, for distributors.",
+      "descripcion": "Para distribuidoras y mayoristas que venden en cuenta corriente: cruza lo que te debe cada cliente con su situación en la Central de Deudores del BCRA, controla los cheques en cartera y te dice qué hacer hoy. Los datos de tus clientes quedan en tu equipo.",
+      "descripcion_en": "For distributors and wholesalers who sell on credit: it crosses what each customer owes you with their status at Argentina's Central Bank debtor registry, tracks the checks you hold and tells you what to do today. Your customers' data stays on your device.",
+      "puntos": [
+        "Semáforo de riesgo por cliente",
+        "Cheques en cartera",
+        "Qué cobrar hoy"
+      ],
+      "puntos_en": [
+        "Risk traffic light per customer",
+        "Checks you hold",
+        "What to collect today"
+      ],
+      "funciones": [
+        {
+          "titulo": "Semáforo de riesgo",
+          "titulo_en": "Risk traffic light",
+          "texto": "Cada cliente con su color según lo que te debe y su situación en la Central de Deudores del BCRA.",
+          "texto_en": "Each customer gets a color from what they owe you and their status at the Central Bank debtor registry."
+        },
+        {
+          "titulo": "Cheques en cartera",
+          "titulo_en": "Checks you hold",
+          "texto": "Los cheques que tenés, con sus fechas, en un solo lugar.",
+          "texto_en": "The checks you hold, with their dates, in one place."
+        },
+        {
+          "titulo": "Qué hacer hoy",
+          "titulo_en": "What to do today",
+          "texto": "Te dice a quién cobrarle primero.",
+          "texto_en": "Tells you whom to collect from first."
+        }
+      ],
+      "precio": "Muy pronto",
+      "precio_en": "Coming soon"
+    }
+  ],
+  "novedades": [
+    {
+      "fecha": "2026-10-28",
+      "producto": "nexus-stock",
+      "titulo": "Nexus Stock 2.3.2: entiende cualquier Excel",
+      "titulo_en": "Nexus Stock 2.3.2 understands any Excel file",
+      "texto": "Importá tu planilla aunque tenga varias pestañas, tablas dinámicas o gráficos: Nexus encuentra el stock, separa las ventas y ordena categoría, marca, color y talle desde el nombre.",
+      "texto_en": "Import your spreadsheet even with several tabs, pivot tables or charts: Nexus finds the stock, sets the sales aside and sorts category, brand, color and size from the name."
+    },
+    {
+      "fecha": "2026-10-28",
+      "producto": "eden",
+      "titulo": "Llegó Edén: todos los programas en un lugar",
+      "titulo_en": "Meet Edén: every program in one place",
+      "texto": "Instalá, actualizá y abrí cada programa de Edén desde acá. Edén controla cada descarga antes de instalarla y te avisa cuando sale una versión nueva.",
+      "texto_en": "Install, update and open every Edén program from here. Edén checks each download before installing it and tells you when a new version is out."
+    },
+    {
+      "fecha": "2026-10-23",
+      "producto": "nexus-stock",
+      "titulo": "Catálogo online con pedido por WhatsApp",
+      "titulo_en": "Online catalog with WhatsApp orders",
+      "texto": "Publicá tu catálogo con un link: tus clientes eligen y te mandan el pedido armado por WhatsApp.",
+      "texto_en": "Publish your catalog with a link: your customers pick products and send you the order on WhatsApp."
+    },
+    {
+      "fecha": "2026-10-23",
+      "producto": "nexus-stock",
+      "titulo": "Tu negocio en el celular",
+      "titulo_en": "Your shop on your phone",
+      "texto": "Preguntale a tu negocio desde el celular por Telegram: cuánto vendiste, qué falta reponer.",
+      "texto_en": "Ask your shop from your phone on Telegram: how much you sold, what needs restocking."
+    }
+  ],
+  "banners": [
+    {
+      "producto": "nexus-stock",
+      "img": "img/ns/pos-5-ok.webp",
+      "accion": "planes",
+      "titulo": "¿Tenés empleados?",
+      "titulo_en": "Do you have staff?",
+      "texto": "Con el plan Pro cada cajero entra con su PIN y no ve costos ni ganancias. Para anular o devolver hace falta el PIN del dueño.",
+      "texto_en": "With the Pro plan each cashier signs in with their PIN and does not see costs or profit. Voids and returns need the owner’s PIN.",
+      "boton": "Ver el plan Pro",
+      "boton_en": "See the Pro plan"
+    },
+    {
+      "producto": "nexus-stock",
+      "img": "img/ns/chat-2-answer.webp",
+      "accion": "funciones",
+      "titulo": "Le preguntás y te contesta con tus números",
+      "titulo_en": "Ask it and it answers with your numbers",
+      "texto": "«¿Cuánto vendí ayer?», «¿qué tengo que reponer?». Y si le pedís un cambio, lo hace con tu confirmación.",
+      "texto_en": "“How much did I sell yesterday?”, “what do I need to restock?”. And if you ask for a change, it does it with your confirmation.",
+      "boton": "Ver qué hace la IA",
+      "boton_en": "See what the AI does"
+    },
+    {
+      "producto": "nexus-stock",
+      "img": "img/ns/inventario.webp",
+      "accion": "funciones",
+      "titulo": "Tu catálogo, con un link",
+      "titulo_en": "Your catalog, with a link",
+      "texto": "Tus clientes eligen y te mandan el pedido armado por WhatsApp. También en PDF. Plan Pro.",
+      "texto_en": "Your customers pick and send you the order on WhatsApp. Also as a PDF. Pro plan.",
+      "boton": "Ver funciones",
+      "boton_en": "See features"
+    },
+    {
+      "producto": "nexus-builder",
+      "img": "img/nb/inicio.webp",
+      "accion": "abrir",
+      "titulo": "Tu sitio web, armado con IA",
+      "titulo_en": "Your website, built with AI",
+      "texto": "Elegís tu rubro y la IA arma el sitio. Se usa desde el navegador.",
+      "texto_en": "Pick your industry and the AI builds the site. It runs in the browser.",
+      "boton": "Abrir Nexus Builder",
+      "boton_en": "Open Nexus Builder"
+    }
+  ]
+}
