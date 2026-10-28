@@ -6,6 +6,13 @@
       "descripcion_en": "Sales, stock and checkout with artificial intelligence",
       "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/latest/download/latest.yml",
       "color": "#7c3aed"
+    },
+    {
+      "nombre": "Edén",
+      "descripcion": "Todos los programas de Edén en un solo lugar",
+      "descripcion_en": "Every Edén program in one place",
+      "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/download/eden/eden.yml",
+      "color": "#b8902f"
     }
   ]
 }
