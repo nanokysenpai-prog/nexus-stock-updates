@@ -1,0 +1,11 @@
+{
+  "productos": [
+    {
+      "nombre": "Nexus Stock",
+      "descripcion": "Ventas, stock y caja con inteligencia artificial",
+      "descripcion_en": "Sales, stock and checkout with artificial intelligence",
+      "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/latest/download/latest.yml",
+      "color": "#7c3aed"
+    }
+  ]
+}
