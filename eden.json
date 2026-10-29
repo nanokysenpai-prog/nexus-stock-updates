@@ -3,7 +3,27 @@
   "web": "https://edendigitall.online",
   "nube": "https://nexus-stock-cloud.santiago-alia777.workers.dev",
   "launcher": {
-    "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/download/eden/eden.yml"
+    "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/download/eden/eden.yml",
+    "cambios": [
+      {
+        "version": "1.2.5",
+        "fecha": "2026-10-29",
+        "resumen": "Edén ahora te ayuda solo y te avisa de todo en grande.",
+        "resumen_en": "Edén now helps you on its own and tells you about everything up front.",
+        "puntos": [
+          "Ayuda automática: un asistente que te contesta al instante y arregla con un botón",
+          "«Avisame cuando salga»: cuando sale un programa nuevo, Edén te avisa solo",
+          "Nexus Builder se abre en su propia ventana, como un programa",
+          "Las versiones nuevas se muestran en grande, con todo lo que traen"
+        ],
+        "puntos_en": [
+          "Automatic help: an assistant that answers right away and fixes things with one button",
+          "«Notify me»: when a new program comes out, Edén tells you on its own",
+          "Nexus Builder opens in its own window, like a program",
+          "New versions are shown up front, with everything they bring"
+        ]
+      }
+    ]
   },
   "productos": [
     {
@@ -224,6 +244,24 @@
       },
       "prueba_dias": 7,
       "cambios": [
+        {
+          "version": "2.3.3",
+          "fecha": "2026-10-28",
+          "puntos": [
+            "Instalado desde Edén, la prueba gratis dura 14 días",
+            "Canjeás tu clave en Edén y se activa sola",
+            "El código de creador que pusiste en Edén se aplica solo",
+            "Nuevo aviso «Conocé Edén», para instalar y actualizar tus programas desde un solo lugar"
+          ],
+          "puntos_en": [
+            "Installed from Edén, the free trial lasts 14 days",
+            "Redeem your key in Edén and it activates on its own",
+            "The creator code you entered in Edén applies on its own",
+            "New «Meet Edén» card, to install and update your programs from one place"
+          ],
+          "resumen": "Esta versión conecta Nexus Stock con Edén: la prueba es más larga, las claves se activan solas y tus beneficios se aplican sin hacer nada.",
+          "resumen_en": "This version connects Nexus Stock with Edén: the trial is longer, keys activate on their own and your benefits apply without doing anything."
+        },
         {
           "version": "2.3.2",
           "fecha": "2026-10-28",
