@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "whatsapp": "5493777222280",
   "web": "https://edendigitall.online",
   "nube": "https://nexus-stock-cloud.santiago-alia777.workers.dev",
   "launcher": {
@@ -716,8 +715,8 @@
         {
           "k": "Dónde se usa",
           "k_en": "Where it runs",
-          "v": "En el navegador (Edén lo abre en su propia ventana de Edge)",
-          "v_en": "In the browser (Edén opens it in its own Edge window)"
+          "v": "En su propia ventana de Edén, como un programa",
+          "v_en": "In its own Edén window, like a program"
         },
         {
           "k": "Estado",
