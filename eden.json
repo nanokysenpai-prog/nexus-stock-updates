@@ -6,6 +6,22 @@
     "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/download/eden/eden.yml",
     "cambios": [
       {
+        "version": "1.2.6",
+        "fecha": "2026-10-29",
+        "resumen": "Tus programas web se sienten como programas de verdad, y Edén ocupa toda la pantalla sin bordes.",
+        "resumen_en": "Your web programs feel like real programs, and Edén fills the whole screen with no edges.",
+        "puntos": [
+          "Nexus Builder tiene su propio botón en la barra de tareas, con su ícono, y se puede anclar",
+          "Con Edén maximizado, la ventana cubre la pantalla de punta a punta, sin bordes ni esquinas",
+          "La ventana de pago es más clara: muestra «Pagos de Edén» y, en PayPal o Mercado Pago, su dirección"
+        ],
+        "puntos_en": [
+          "Nexus Builder has its own taskbar button, with its icon, and can be pinned",
+          "With Edén maximized, the window covers the screen edge to edge, with no borders or corners",
+          "The payment window is clearer: it shows «Edén payments» and, on PayPal or Mercado Pago, their address"
+        ]
+      },
+      {
         "version": "1.2.5",
         "fecha": "2026-10-29",
         "resumen": "Edén ahora te ayuda solo y te avisa de todo en grande.",
@@ -244,6 +260,24 @@
       },
       "prueba_dias": 7,
       "cambios": [
+        {
+          "version": "2.3.4",
+          "fecha": "2026-10-29",
+          "resumen": "El inventario se adapta a tu Excel: Nexus descubre sus cuentas y calcula igual que tu planilla.",
+          "resumen_en": "The inventory adapts to your Excel: Nexus finds its calculations and works out the same numbers as your spreadsheet.",
+          "puntos": [
+            "Recargo sobre el costo y margen en cada producto, con tu forma de calcular el precio",
+            "Costo, margen y ganancia por unidad en el inventario, con los nombres de tu Excel",
+            "Las ventas de tu planilla pasan al historial, sin tocar el stock",
+            "Instalador con la marca, sin preguntas, y cartel de actualización nuevo"
+          ],
+          "puntos_en": [
+            "Surcharge on cost and margin on each product, with your way of working out the price",
+            "Cost, margin and profit per unit in the inventory, with the names from your Excel",
+            "Your spreadsheet sales go into the history, without touching stock",
+            "Branded installer with no questions, and a new update notice"
+          ]
+        },
         {
           "version": "2.3.3",
           "fecha": "2026-10-28",
