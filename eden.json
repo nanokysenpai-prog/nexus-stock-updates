@@ -261,6 +261,24 @@
       "prueba_dias": 7,
       "cambios": [
         {
+          "version": "2.3.5",
+          "fecha": "2026-11-02",
+          "resumen": "Nexus en el celular: escaneás un QR y ves tus ventas, tu caja y qué reponer desde cualquier celular, sin instalar nada.",
+          "resumen_en": "Nexus on your phone: scan a QR code and see your sales, cash and what to restock from any phone, without installing anything.",
+          "puntos": [
+            "Ventas del día, ganancia, efectivo, medios de pago y a qué hora vendiste más",
+            "Con el plan Pro: los últimos 30 días, qué día vendés más, lo más vendido, el stock entero y lo que te deben",
+            "Cifrado de punta a punta: la clave queda en tu PC y en el QR, ni Edén puede leer tus datos",
+            "Los primeros 100 negocios con licencia paga tienen la versión completa para siempre"
+          ],
+          "puntos_en": [
+            "Today's sales, profit, cash, payment methods and your best hour",
+            "With the Pro plan: the last 30 days, your best weekday, best sellers, the whole stock and what customers owe you",
+            "End-to-end encrypted: the key stays on your PC and in the QR code, not even Edén can read your data",
+            "The first 100 businesses with a paid license get the full version forever"
+          ]
+        },
+        {
           "version": "2.3.4",
           "fecha": "2026-10-29",
           "resumen": "El inventario se adapta a tu Excel: Nexus descubre sus cuentas y calcula igual que tu planilla.",
