@@ -261,6 +261,24 @@
       "prueba_dias": 7,
       "cambios": [
         {
+          "version": "2.4.0",
+          "fecha": "2026-11-04",
+          "resumen": "Cajas y sucursales conectadas: varias PC del mismo negocio, cada sucursal con su stock y la central viendo todo.",
+          "resumen_en": "Connected registers and branches: several PCs of the same business, each branch with its own stock and the main store seeing everything.",
+          "puntos": [
+            "Otra caja en el mismo local comparte el stock: lo que vende una baja en todas",
+            "Cada sucursal con su nombre y su propio stock; la central manda mercadería y ve el stock y las ventas de cada local",
+            "Se suma una PC con un código de 10 minutos; sin internet cada PC sigue vendiendo y todo viaja cifrado",
+            "Plan Pro: cada PC extra USD 19 por mes, con 7 días para probarla"
+          ],
+          "puntos_en": [
+            "Another register at the same location shares the stock: what one sells goes down on all",
+            "Each branch with its name and its own stock; the main store sends goods and sees each location's stock and sales",
+            "A PC joins with a 10-minute code; without internet each PC keeps selling and everything travels encrypted",
+            "Pro plan: each extra PC USD 19 per month, with 7 days to try it"
+          ]
+        },
+        {
           "version": "2.3.5",
           "fecha": "2026-11-02",
           "resumen": "Nexus en el celular: escaneás un QR y ves tus ventas, tu caja y qué reponer desde cualquier celular, sin instalar nada.",
