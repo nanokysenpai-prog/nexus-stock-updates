@@ -11,12 +11,12 @@
         "resumen": "Los planes muestran el precio que te corresponde a vos.",
         "resumen_en": "Plans show the price that applies to you.",
         "puntos": [
-          "El beneficio Edén (10 % menos en el primer plan anual) aparece solo si a tu PC le corresponde",
+          "Los planes muestran siempre el precio que vas a pagar",
           "Después de comprar, los precios se actualizan solos",
           "La pantalla de pago explica cada caso, y el código se recupera con «Recuperar mi código»"
         ],
         "puntos_en": [
-          "The Edén benefit (10% off the first annual plan) shows only if it applies to your PC",
+          "Plans always show the price you will pay",
           "After you buy, prices update on their own",
           "The checkout explains each case, and the code can be recovered with «Recover my code»"
         ]
@@ -276,6 +276,26 @@
       },
       "prueba_dias": 7,
       "cambios": [
+        {
+          "version": "2.5.0",
+          "fecha": "2026-11-07",
+          "resumen": "Cargar productos nuevos es como en tu planilla: Nexus completa el recargo, el margen y lo demás mirando tus productos parecidos.",
+          "resumen_en": "Adding new products works like your spreadsheet: Nexus fills in the surcharge, margin and more by looking at your similar products.",
+          "puntos": [
+            "Al cargar un producto, ya vienen el recargo y el margen que usás, como en tu Excel",
+            "Escribís el nombre y completa la categoría, la marca, el talle y el color de tus productos parecidos",
+            "Las columnas propias de tu planilla (Proveedor, Temporada…) aparecen en la ficha",
+            "«Agregar variante»: otro talle o color del mismo producto en un toque",
+            "Recorrido guiado «Lo nuevo» con todo lo que llegó en las últimas versiones"
+          ],
+          "puntos_en": [
+            "When you add a product, the surcharge and margin you use are already there, like in your Excel",
+            "Type the name and it completes the category, brand, size and color from your similar products",
+            "Your spreadsheet's own columns (Supplier, Season…) show up on the product card",
+            "«Add variant»: another size or color of the same product in one tap",
+            "Guided «What's new» tour with everything that arrived in the latest versions"
+          ]
+        },
         {
           "version": "2.4.0",
           "fecha": "2026-11-04",
