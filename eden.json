@@ -6,6 +6,22 @@
     "yml": "https://github.com/nanokysenpai-prog/nexus-stock-updates/releases/download/eden/eden.yml",
     "cambios": [
       {
+        "version": "1.2.7",
+        "fecha": "2026-11-07",
+        "resumen": "Los planes muestran el precio que te corresponde a vos.",
+        "resumen_en": "Plans show the price that applies to you.",
+        "puntos": [
+          "El beneficio Edén (10 % menos en el primer plan anual) aparece solo si a tu PC le corresponde",
+          "Después de comprar, los precios se actualizan solos",
+          "La pantalla de pago explica cada caso, y el código se recupera con «Recuperar mi código»"
+        ],
+        "puntos_en": [
+          "The Edén benefit (10% off the first annual plan) shows only if it applies to your PC",
+          "After you buy, prices update on their own",
+          "The checkout explains each case, and the code can be recovered with «Recover my code»"
+        ]
+      },
+      {
         "version": "1.2.6",
         "fecha": "2026-10-29",
         "resumen": "Tus programas web se sienten como programas de verdad, y Edén ocupa toda la pantalla sin bordes.",
