@@ -225,46 +225,112 @@
           "para": "Para el dueño que atiende su negocio.",
           "para_en": "For the owner who runs the counter.",
           "incluye": [
-            "Todo Nexus Stock 2",
             "Caja, stock, compras, precios, clientes y estadísticas",
-            "Los 15 ayudantes de IA y «Preguntale a Nexus»",
+            "Los asistentes de IA y «Preguntale a Nexus»",
             "Funciona sin internet",
             "Copias diarias y en la nube, cifradas",
-            "Para 1 computadora",
-            "Actualizaciones automáticas"
+            "Para 1 computadora"
           ],
           "incluye_en": [
-            "All of Nexus Stock 2",
             "Checkout, stock, purchases, prices, customers and statistics",
-            "The 15 AI helpers and “Ask Nexus”",
+            "The AI assistants and “Ask Nexus”",
             "Works offline",
             "Daily and cloud backups, encrypted",
-            "For 1 computer",
-            "Automatic updates"
+            "For 1 computer"
           ]
         },
         {
           "id": "pro",
           "nombre": "Pro",
-          "para": "Para negocios con empleados o cajeros.",
-          "para_en": "For shops with staff or cashiers.",
+          "para": "Para negocios con empleados, cajas o sucursales.",
+          "para_en": "For shops with staff, registers or branches.",
           "incluye": [
             "Todo lo del plan Básico",
-            "Usuarios y cajeros con PIN",
-            "El cajero no ve ganancias ni costos",
-            "Anular o devolver pide el PIN del dueño",
-            "Cada venta queda a nombre de quien la hizo",
-            "Catálogo online y en PDF",
-            "Para 1 computadora"
+            "Usuarios y cajeros con PIN: el cajero no ve ganancias ni costos",
+            "Varias cajas y sucursales conectadas",
+            "Tu equipo en el celular",
+            "Catálogo online y en PDF"
           ],
           "incluye_en": [
             "Everything in Basic",
-            "Users and cashiers with a PIN",
-            "Cashiers don't see profit or costs",
-            "Voids and returns need the owner's PIN",
-            "Every sale is recorded under who made it",
-            "Online and PDF catalog",
-            "For 1 computer"
+            "Users and cashiers with a PIN: cashiers don’t see profit or costs",
+            "Several connected registers and branches",
+            "Your team on their phones",
+            "Online and PDF catalog"
+          ]
+        },
+        {
+          "id": "negocio",
+          "nombre": "Negocio",
+          "para": "Para controlar la plata y vender por más lados.",
+          "para_en": "To keep track of money and sell through more channels.",
+          "incluye": [
+            "Todo lo del plan Pro",
+            "Calendario de plata, conciliador y libro del contador",
+            "«¿Qué pasa si…?» con tus números",
+            "Combos, recetas y fraccionados",
+            "Foto de la góndola y dictar la venta",
+            "Reparto (Mercado Libre, muy pronto)"
+          ],
+          "incluye_en": [
+            "Everything in Pro",
+            "Money calendar, reconciler and accountant’s book",
+            "“What if…?” with your numbers",
+            "Combos, recipes and split packs",
+            "Shelf photo and dictated sales",
+            "Delivery (Mercado Libre, coming soon)"
+          ]
+        },
+        {
+          "id": "gastronomia",
+          "nombre": "Gastronomía",
+          "para": "Para restaurantes, bares y cafeterías.",
+          "para_en": "For restaurants, bars and cafés.",
+          "incluye": [
+            "Todo lo del plan Negocio",
+            "Mesas y comandas, para llevar y delivery",
+            "Pantalla de cocina y barra",
+            "Control de merma de insumos"
+          ],
+          "incluye_en": [
+            "Everything in Business",
+            "Tables and kitchen orders, takeaway and delivery",
+            "Kitchen and bar screen",
+            "Ingredient waste control"
+          ]
+        },
+        {
+          "id": "hoteleria",
+          "nombre": "Hotelería",
+          "para": "Para hoteles, cabañas y residencias.",
+          "para_en": "For hotels, cabins and residences.",
+          "incluye": [
+            "Todo lo del plan Gastronomía",
+            "Economato por habitación",
+            "Minibar a la cuenta del huésped",
+            "Roturas y lavandería"
+          ],
+          "incluye_en": [
+            "Everything in Restaurants",
+            "Supplies per room",
+            "Minibar charged to the guest’s account",
+            "Breakage and laundry"
+          ]
+        },
+        {
+          "id": "todo",
+          "nombre": "Todo incluido",
+          "para": "Para cadenas y franquicias.",
+          "para_en": "For chains and franchises.",
+          "incluye": [
+            "Todos los sistemas de Nexus Stock",
+            "Tablero de la cadena: ranking de tus locales",
+            "Regalías de cada franquicia, listas para Excel"
+          ],
+          "incluye_en": [
+            "Every Nexus Stock system",
+            "Chain dashboard: ranking of your locations",
+            "Royalties for each franchise, ready for Excel"
           ]
         }
       ],
@@ -272,10 +338,40 @@
         "basico-mensual": 29,
         "basico-anual": 285,
         "pro-mensual": 49,
-        "pro-anual": 420
+        "pro-anual": 420,
+        "negocio-mensual": 69,
+        "negocio-anual": 690,
+        "gastronomia-mensual": 89,
+        "gastronomia-anual": 890,
+        "hoteleria-mensual": 149,
+        "hoteleria-anual": 1490,
+        "todo-mensual": 349,
+        "todo-anual": 3490
       },
       "prueba_dias": 7,
       "cambios": [
+        {
+          "version": "2.6.0",
+          "fecha": "2026-11-26",
+          "resumen": "Planes para cada tipo de negocio y los sistemas nuevos: la plata y el contador, combos y recetas, reparto, mesas y cocina, habitaciones y el tablero de la cadena.",
+          "resumen_en": "Plans for every kind of business and the new systems: money and accountant, combos and recipes, delivery, tables and kitchen, rooms and the chain dashboard.",
+          "puntos": [
+            "Seis planes: cada uno suma lo del anterior, y lo que ya usabas sigue en tu plan",
+            "Calendario de plata, conciliador del banco y de Mercado Pago, y el libro del mes para tu contador",
+            "En la caja: dictar la venta, «ofrecé también» y combos, recetas y fraccionados",
+            "Gastronomía: mesas, comandas y pantalla de cocina; Hotelería: economato por habitación y minibar",
+            "Compras en grupo y radar de precios con otros comercios de tu zona",
+            "«Lo que viene»: la hoja de ruta de Nexus Stock y Edén, en Configuración → Ayuda"
+          ],
+          "puntos_en": [
+            "Six plans: each one includes the previous one, and what you already used stays in your plan",
+            "Money calendar, bank and Mercado Pago reconciler, and the monthly book for your accountant",
+            "At the register: dictated sales, “offer this too” and combos, recipes and split packs",
+            "Restaurants: tables, kitchen orders and kitchen screen; Hotels: room supplies and minibar",
+            "Group buying and a price radar with other shops in your area",
+            "“What’s coming”: the Nexus Stock and Edén roadmap, in Settings → Help"
+          ]
+        },
         {
           "version": "2.5.0",
           "fecha": "2026-11-07",
@@ -686,62 +782,6 @@
             "Promos with a banner ready for social media",
             "The AI on your PC installs itself the first time"
           ]
-        }
-      ],
-      "comparar": [
-        {
-          "k": "Caja, stock, compras, clientes y estadísticas",
-          "k_en": "Checkout, stock, purchases, customers and statistics",
-          "b": true,
-          "p": true
-        },
-        {
-          "k": "Los 15 ayudantes de IA y «Preguntale a Nexus»",
-          "k_en": "The 15 AI helpers and “Ask Nexus”",
-          "b": true,
-          "p": true
-        },
-        {
-          "k": "Funciona sin internet",
-          "k_en": "Works offline",
-          "b": true,
-          "p": true
-        },
-        {
-          "k": "Copias diarias y en la nube, cifradas",
-          "k_en": "Daily and cloud backups, encrypted",
-          "b": true,
-          "p": true
-        },
-        {
-          "k": "Tu negocio en el celular (Telegram)",
-          "k_en": "Your shop on your phone (Telegram)",
-          "b": true,
-          "p": true
-        },
-        {
-          "k": "Usuarios y cajeros con PIN",
-          "k_en": "Users and cashiers with a PIN",
-          "b": false,
-          "p": true
-        },
-        {
-          "k": "El cajero no ve ganancias ni costos",
-          "k_en": "Cashiers don’t see profit or costs",
-          "b": false,
-          "p": true
-        },
-        {
-          "k": "Catálogo online y en PDF",
-          "k_en": "Online and PDF catalog",
-          "b": false,
-          "p": true
-        },
-        {
-          "k": "Computadoras",
-          "k_en": "Computers",
-          "b": "1",
-          "p": "1"
         }
       ],
       "videos": [
